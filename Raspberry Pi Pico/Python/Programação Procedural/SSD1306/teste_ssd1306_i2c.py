@@ -8,5 +8,5 @@ i2c = I2C(1,sda=Pin(6),scl= Pin(7),freq= 400000)
 display = ssd1306.SSD1306_I2C(128, 64, i2c)
 
 display.fill(0)
-display.text( "Sergiao Roludo!!", 0, 0)
+display.text( "IMT MAUA!!", 0, 0)
 display.show()
